@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h2, h5 {
+   font-weight: 700;
+   color: rgb(54 57 88);
+}
+
+h1 .h1-d-clr {
+    color: rgb(250 128 76);
+}
+
+nav ul {
+    font-weight: 700!important;
+}
+.tk-clr {
+    color: rgb(250 128 76);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+button {
+    font-size: 15px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(57 73 218);
+    color: white;
+}
+
+header {
+    background-color: #FFF9F4;
+}
+
+header .head{
+    padding-bottom: 120px;
+}
+
+.shoe-card img {
+    background-color: rgb(241 241 241);
+    border-radius: 5%;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 15px;
+    height: auto;
+}
+
+.shoe-card, .formal-shoe-card, .penguin-features .card {
+    border: 0;
+    border-radius: 5%;
+}
+
+.penguin-card-footer {
+    border: 0;
+    background: #ffffff;
+}
+
+.penguin-features .first, .penguin-features .second{
+    width: 45%;
+}
+
+.penguin-features .first img {
+    width: 40%;
+}
+
+main .thired-section {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 768px) {
+    .penguin-features .first, .penguin-features .second{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .head img {
+        margin-bottom: 40px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 15px 25px;
+    } 
+
+    .penguin-features {
+        text-align: center;
+    }
+
+    .penguin-features .first img {
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .sm-button {
+        font-size: 12px;
+        padding: 10px 20px;
+    } 
+
+    .sp-button {
+        font-size: 15px!important;
+        padding: 20px 30px!important;
+    }
+}
